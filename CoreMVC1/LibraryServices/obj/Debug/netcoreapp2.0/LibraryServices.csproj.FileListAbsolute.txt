@@ -1,0 +1,12 @@
+E:\SandeepaniProjects\CoreMVC1\LibraryServices\bin\Debug\netcoreapp2.0\LibraryServices.deps.json
+E:\SandeepaniProjects\CoreMVC1\LibraryServices\bin\Debug\netcoreapp2.0\LibraryServices.dll
+E:\SandeepaniProjects\CoreMVC1\LibraryServices\bin\Debug\netcoreapp2.0\LibraryServices.pdb
+E:\SandeepaniProjects\CoreMVC1\LibraryServices\bin\Debug\netcoreapp2.0\LibraryData.dll
+E:\SandeepaniProjects\CoreMVC1\LibraryServices\bin\Debug\netcoreapp2.0\LibraryData.pdb
+E:\SandeepaniProjects\CoreMVC1\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.csprojAssemblyReference.cache
+E:\SandeepaniProjects\CoreMVC1\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.csproj.CoreCompileInputs.cache
+E:\SandeepaniProjects\CoreMVC1\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.AssemblyInfoInputs.cache
+E:\SandeepaniProjects\CoreMVC1\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.AssemblyInfo.cs
+E:\SandeepaniProjects\CoreMVC1\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.csproj.CopyComplete
+E:\SandeepaniProjects\CoreMVC1\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.dll
+E:\SandeepaniProjects\CoreMVC1\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.pdb
