@@ -1,0 +1,16 @@
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\bin\Debug\netcoreapp2.0\CoreMVC1.deps.json
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\bin\Debug\netcoreapp2.0\CoreMVC1.runtimeconfig.json
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\bin\Debug\netcoreapp2.0\CoreMVC1.runtimeconfig.dev.json
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\bin\Debug\netcoreapp2.0\CoreMVC1.dll
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\bin\Debug\netcoreapp2.0\CoreMVC1.pdb
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\obj\Debug\netcoreapp2.0\CoreMVC1.csprojAssemblyReference.cache
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\obj\Debug\netcoreapp2.0\CoreMVC1.csproj.CoreCompileInputs.cache
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\obj\Debug\netcoreapp2.0\CoreMVC1.AssemblyInfoInputs.cache
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\obj\Debug\netcoreapp2.0\CoreMVC1.AssemblyInfo.cs
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\obj\Debug\netcoreapp2.0\CoreMVC1.dll
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\obj\Debug\netcoreapp2.0\CoreMVC1.pdb
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\bin\Debug\netcoreapp2.0\LibraryData.dll
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\bin\Debug\netcoreapp2.0\LibraryData.pdb
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\obj\Debug\netcoreapp2.0\CoreMVC1.csproj.CopyComplete
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\bin\Debug\netcoreapp2.0\LibraryServices.dll
+E:\SandeepaniProjects\CoreMVC1\CoreMVC1\bin\Debug\netcoreapp2.0\LibraryServices.pdb
