@@ -4,12 +4,37 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Catalog</title>
+    <script type="text/javascript">
+        function getDetails(id, type) {
+            var url = (type == "Book") ? "@Url.Action("EditBook")" : "@Url.Action("EditVideo")";
+            $.ajax({
+                type: "get",
+                url: url,
+                data: { id: id },
+                success: function (d) {
+                    /* d is the HTML of the returned response */
+                    $("html").html(d); //replaces previous HTML with action
+                }
+            });
+
+        }
+        function search() {
+            var title = $("#title").val();
+            var author = $("#author").val();
+            window.location.href = "../Catalog/Index?title=" + title + "&author="+ author;
+        }
+    </script>
 </head>
 <body>
 
     <div id="assets">
         <h3>Library Catalog</h3>
         <div id="assetsTable">
+            <div class="row">
+                <div class="col-2"><input id="title" placeholder="title"  /></div>
+                <div class="col-2"><input id="author"  placeholder="author" /></div>
+                <div class="col-6"><input type="button" id="search" onclick="search()" value="Search"/></div>
+            </div>
             <table class="table table-condensed" id="catalogIndexTable">
                 <thead>
                     <tr>
@@ -28,7 +53,9 @@
                         <th>
                             Dewey Cal NUmber
                         </th>
-                       
+                        <th>
+                            
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -38,7 +65,7 @@
                            
                             <td>
                                 <a asp-controller="Catalog" asp-action="Detail" asp-route-id="@asset.Id">
-                                    <img src="@asset.ImageUrl" class="img-thumbnail" />
+                                    <img src="@asset.ImageUrl" class="img-thumbnail" style="max-width:150px" />
                                 </a>
                             </td>
                             <td class="">
@@ -50,16 +77,25 @@
                             <td>
                                 @asset.DeweyCallNumber
                             </td>
-                            @*<td>
-                                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-                            </td>*@
+                            <td>
+                                <a onclick="getDetails(@asset.Id,'@asset.Type')">View Details & Edit</a>
+                                @*@Ajax.ActionLink(
+                                "View Details & Edit",
+                                "Edit",
+                                new AjaxOptions { UpdateTargetId = "result" }, new { id = @asset.Id }
+                                )*@
+                                 |
+                                @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |*@
+                                @Html.ActionLink("Delete", "Delete", new { id = @asset.Id })
+                            </td>
                         </tr>
                     }
                 </tbody>
             </table>
         </div>
+    </div>
+    <div id="edit_details">
+        @*@Html.Partial("Edit",new LibraryData.Models.LibraryAsset (){ })*@
     </div>
 </body>
 </html>

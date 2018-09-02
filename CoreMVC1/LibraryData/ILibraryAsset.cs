@@ -11,6 +11,7 @@ namespace LibraryData
         LibraryAsset GetByid(int id);
 
         void Add(LibraryAsset newAsset);
+        void Update(LibraryAsset newAsset);
         string GetAuthorOrDirecor(int id);
         string GetDewyIndex(int id);
         string GetType(int id);
